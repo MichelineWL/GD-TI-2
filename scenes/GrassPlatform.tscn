@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" uid="uid://y5a4e3ajuy2r" path="res://scenes/StonePlatform.tscn" id="1_base"]
+[ext_resource type="Texture2D" path="res://assets/grass.png" id="2_new_texture"]
+
+[node name="GrassPlatform" instance=ExtResource("1_base")]
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_new_texture")

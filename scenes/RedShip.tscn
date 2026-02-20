@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" uid="uid://datfp8kxjrjg" path="res://scenes/BlueShip.tscn" id="1_base"]
+[ext_resource type="Texture2D" path="res://assets/redship.png" id="2_new_texture"]
+[ext_resource type="Script" path="res://scenes/RedShip.gd" id="3_script"]
+
+[node name="RedShip" instance=ExtResource("1_base")]
+script = ExtResource("3_script")
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_new_texture")
