@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bvqc0ljuwp8uu"]
 
 [ext_resource type="PackedScene" path="res://scenes/GrassPlatform.tscn" id="1_grass_plat"]
-[ext_resource type="PackedScene" path="res://scenes/RedShip.tscn" id="2_red_ship"]
+[ext_resource type="PackedScene" uid="uid://cef8jf4x7b77m" path="res://scenes/RedShip.tscn" id="2_red_ship"]
 [ext_resource type="Script" uid="uid://bsuv2svmaqypq" path="res://scenes/PlatformBlue.gd" id="3_platform_script"]
 [ext_resource type="Script" uid="uid://x2rdmjyr1ttw" path="res://scenes/ObjectiveArea.gd" id="4_objective_script"]
 
@@ -17,9 +17,11 @@ script = ExtResource("3_platform_script")
 
 [node name="GrassPlatform" parent="PlatformGrass" unique_id=1559354389 instance=ExtResource("1_grass_plat")]
 position = Vector2(1805, -6.6667075)
+scale = Vector2(0.5, 0.5)
 
 [node name="GrassPlatform2" parent="PlatformGrass" unique_id=716954987 instance=ExtResource("1_grass_plat")]
 position = Vector2(1816.6665, 9.999958)
+scale = Vector2(0.5, 0.5)
 
 [node name="RedShip" parent="." unique_id=768759339 instance=ExtResource("2_red_ship")]
 position = Vector2(1113, 191)
