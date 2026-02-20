@@ -25,9 +25,9 @@ NPM: 2306207013
    RigidBody2 \= Dipengaruhi oleh gaya berat terlihat dari componentsnya yang memiliki keterangan mass   
    StaticBody 2D \= Sesuai namanya statis dan terlihat dari componentsnya terdapat constant line dan constang angle   
      
-3. Ubah nilai atribut Mass pada tipe RigidBody2D secara bebas di scene BlueShip, lalu coba jalankan scene MainLevel. Apa yang terjadi?  
-   Ketika mass di set pada yang paling ringan, pesawat melaju ke atas dengan dorongan yang sangat sedikit bahkan sampai melewati batas atas.   
-     
+3. Ubah nilai atribut Mass pada tipe RigidBody2D secara bebas di scene BlueShip, lalu coba jalankan scene MainLevel. Apa yang terjadi?
+   Ketika diubah menjadi ringan, gaya yang diberikan kepada pesawat oleh landasan lebih pelan untuk dapat melaju.
+        
 4. Ubah nilai atribut Disabled milik node CollisionShape2D pada scene StonePlatform, lalu coba jalankan scene MainLevel. Apa yang terjadi?  
    Jawab: Stone tidak bergerak  
    ![](images/output4.png)
