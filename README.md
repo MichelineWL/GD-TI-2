@@ -41,4 +41,5 @@ NPM: 2306207013
 
 \======================================================================
 
-Saya mengubah pesawat menjadi redShip dan landasan menjadi grass dengan penempatan objective area di kanan. Selain itu, saya juga menambahkan gerakan tambahan yaitu ke kanan dan ke kiri untuk landasannya. 
+Latihan mandiri
+Saya mengubah pesawat menjadi redShip dan landasan menjadi grass dengan penempatan objective area di kanan. Selain itu, saya juga menambahkan gerakan tambahan yaitu ke kanan dan ke kiri untuk landasannya. Selain itu, level 2 juga bisa diakses setelah menyelesaikan main level, dengan latar baru. 
